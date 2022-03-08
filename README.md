@@ -1,5 +1,7 @@
 Complete Code Solution for Programming For Problem Solving-1
-OPERATORS AND EVALUATION OF EXPRESSIONS
+
+1.OPERATORS AND EVALUATION OF EXPRESSIONS
+
 1. Write a program that works as a calculator (addition,
 multiplication, division, subtraction).
 2. Write a program to find area of triangle(a=h*b*.5)
