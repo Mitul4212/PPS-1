@@ -53,6 +53,7 @@ number from given 10 numbers
 the last digit of the number is even or odd.
 
 3 Looping
+
 1. Write a C program to find the factorial of a given number.
 2. Write a program to reverse a number.
 3. Write a program to generate first n number of Fibonacci
@@ -67,14 +68,95 @@ prime or not
 1^2+2^2+3^2+……+n^2
 8. Write a C program to find 1+1/2+1/3+1/4+1/n.
 9. Write a program to print following patterns :
-* * *****
-** * * ****
-*** * * * ***
-**** * * * * **
-***** * * * * * *
 10. Write a program to print following patterns :
-1 12345 55555 1
-12 1234 4444 22
-123 123 333 333
-1234 12 22 4444
-12345 1 1 55555
+
+4 Arrays & Strings
+
+1. Write a C program to read and store the roll no and marks of
+20 students using an array.
+2. Write a program to find out which number is even or odd
+from list of 10 numbers using array
+3. Write a program to find the maximum element from a oneDimensional array.
+4. Write a Program to Search an element in array.
+5. Write a Program to perform addition of all elements in Array.
+6. Write a Program to reverse the array elements in C
+Programming.
+7. Write a Program for deletion of an element from the
+specified location from Array.
+8. Write a program to find a character from a given string.
+9. Write a program to replace a character in a given string.
+10. Write a program to delete a character in a given string.
+11. Write a program to reverse string.
+12. Write a program to convert string into upper case
+
+5 Functions
+
+1. Write a program that defines a function to add first n
+numbers.
+2. Write a function in the program to return 1 if number is
+prime otherwise return 0
+3. Write a function Exchange to interchange the values of two
+variables, say x and y illustrates the use of this function in a
+calling function.
+4. Write a C program to check whether a number is prime,
+Armstrong or perfect number using functions.
+5. Write a program to find the factorial of a number using
+recursion.
+6. Write a program to calculate sum of first 20 natural numbers
+using recursive function.
+7. Write a program to generate Fibonacci series using recursive
+function.
+8. Write a program to find sum of digits of the number using
+Recursive Function.
+9. Write a function that will scan a character string passed as
+an argument and convert all lowercase character into their
+uppercase equivalents
+
+6 Pointers
+
+1. Write a program to print the address of a variable using a
+pointer.
+2. Write a C program to swap the two values using pointers.
+3. Write a C program to print the address of a character and the
+character of string using a pointer.
+4. Write a program to add two numbers using pointers.
+5. Write a program to input and print array elements using
+pointer.
+6. Write a program to copy one array to another using pointer.
+7. Write a program to swap two arrays using pointers.
+8. Write a program to access elements using a pointer.
+9. Write a program for sorting using a pointer.
+
+7 Structures
+
+1. Write a program to read structure elements from the
+keyboard.
+2. Design a structure student_record to contain name, branch
+and total marks obtained. Develop a program to read data for
+10 students in a class and print them.
+3. Write a program to add two distances in feet and inches using
+structure
+4. Write a program to read and print an Employee‟s Details using
+Structure.
+5. Write a program to declare, initialize an UNION
+
+8 File Handling in C
+
+1. Write a program to write a string in file
+2. A file named data contains a series of integer numbers. Write
+a c program to read all numbers from a file and then write all
+odd numbers into a file named “odd” and write all even
+numbers into a file named “even”. Display all the contents of
+these file on screen
+3. C Program to count number of lines in a file
+4. C Program to print contents of file
+5. C Program to copy contents of one file to another file
+6. C Program to merge contents of two files into a third file
+
+9 Graphics Functions :
+
+1. Write a Program to draw a point, arc, line, and circle.
+2. Write a Program to draw a rectangles and polygons.
+3. Write a Program to fill polygons.
+
+10 OEP
