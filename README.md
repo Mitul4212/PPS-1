@@ -51,3 +51,4 @@ Sunday to Saturday.
 number from given 10 numbers
 8. Write a C program to input an integer number and check if
 the last digit of the number is even or odd.
+
