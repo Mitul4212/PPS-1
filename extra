@@ -1,0 +1,69 @@
+#include<stdio.h>
+
+struct emp{
+	char en[30];
+	long s;
+	int id;
+};
+struct org{
+	char on[30];
+	int code;
+	struct emp e[1000];
+};
+void main(){
+	int i,j,n,m;
+	int key,temp=0;
+	printf("How many org.\n");
+	scanf("%d",&n);
+	printf("how many emp.\n");
+	scanf("%d",&m);
+	
+	struct org o[n];
+	for(i=0;i<n;i++){
+	    printf("Enter org.%d name\n",i+1);
+	    scanf("%s",o[i].on);
+	    printf("ENter org.%d code\n",i+1);
+	    scanf("%d",&o[i].code);
+	    
+	    for(j=0;j<m;j++){
+	        printf("Enter emp.%d name\n",j+1);
+	        scanf("%s",o[i].e[j].en);
+	        printf("Enter emp.%d salary\n",j+1);
+	        scanf("%ld",&o[i].e[j].s);
+	        printf("Enter emp.%d id\n",j+1);
+	        scanf("%d",&o[i].e[j].id);
+	    }	   
+	}
+	
+	printf("Enter code to printf org\n");
+	scanf("%d",&key);
+
+
+    for(i=0;i<n;i++){
+        
+    	if(o[i].code==key){
+    	   for(i=0;i<n;i++){
+    	         printf("org.%d=%s\n",i+1,o[i].on);
+    	   
+    	        for(j=0;j<m;j++){
+    	            printf("emp.%d name=%s\n",j+1,o[i].e[j].en);
+     	            printf("emp.%d salary=%ld\n",j+1,o[i].e[j].s);
+    	            printf("emp.%d ID=%d\n",j+1,o[i].e[j].id);	
+    	        }	   
+    	    }
+    	}
+    	else{
+    	    printf("Enetr velid code");
+    	}
+    }	
+// 	for(i=0;i<n;i++){
+// 	    printf("org.%d=%s",i+1,o[i].on);
+// 	    printf("org.%d code=%d\n",i+1,o[i].code);
+// 	    for(j=0;j<m;j++){
+// 	        printf("emp.%d name=%s\n",j+1,o[i].e[j].en);
+// 	        printf("emp.%d salary=%ld\n",j+1,o[i].e[j].s);
+// 	        printf("emp.%d ID=%d\n",j+1,o[i].e[j].id);	
+// 	    }
+// 	}
+	    
+}
